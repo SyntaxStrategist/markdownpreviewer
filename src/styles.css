@@ -1,0 +1,83 @@
+/* File: src/App.css */
+
+body {
+  font-family: 'Verdana', sans-serif;
+  background-color: #c8d8e4; /* Light blue background */
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  padding: 20px;
+}
+
+#editor-container, #preview-container {
+  margin: 20px auto;
+  width: 60%;
+}
+
+#editor {
+  background-color: #f0f8ff; /* Very light blue for editor */
+  border: 2px solid #8baac7;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 200px;
+  font-size: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#preview-container {
+  background-color: #e3f2fd; /* Light blue background for preview */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+#preview {
+  text-align: left;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #0056b3; /* Dark blue headings */
+}
+
+a {
+  color: #004085; /* Link color */
+}
+
+code {
+  background-color: #e9ecef;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+blockquote {
+  border-left: 4px solid #8baac7;
+  padding-left: 10px;
+  color: #555;
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #8baac7;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f8ff;
+}
